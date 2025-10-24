@@ -42,7 +42,7 @@ public class odev1 {
 		else {
 			System.out.println("Durum : Başarısız Öğrenci");	//Kullanıcının girdiği gpaya göre karar veren komut satırı
 		}
-		
+		scanner.close();		
 	}
 
 }
