@@ -32,6 +32,8 @@ public class odev2 {
 		System.out.printf("Daire Çapı        : %.2f cm\n", cap);
 		System.out.printf("Küre Hacmi        : %.2f cm³\n", hacim);
 		System.out.printf("Küre Yüzey Alanı  : %.2f cm²\n", yuzey_alani);
+
+		scanner.close();
 	}
 
 }
