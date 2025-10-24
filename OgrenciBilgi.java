@@ -1,60 +1,48 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: Mehmet Ali Kırımlı
+ * Ogrenci No: 250542027
+ * Tarih: 24.10.2025
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
  * duzenli bir formatta ekrana yazdirir.
- * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
  */
 
 import java.util.Scanner;
 
-public class OgrenciBilgi {
-    public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
-        System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
+public class odev1 {
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
-        
-    }
+	public static void main(String[] args) {
+		
+		System.out.println("=============================");
+		System.out.println("   Öğrenci Bilgi Sistemi");
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Adınızı Girin : ");
+		String isim = scanner.nextLine();
+		System.out.println("Soyadınızı Girin :");
+		String soyisim = scanner.nextLine();
+		System.out.println("Öğrenci Numaranızı Girin : ");
+		int ogr_no = scanner.nextInt();
+		System.out.println("Yaşınızı Girin : ");
+		int yas = scanner.nextInt();
+		System.out.println("GPA'nızı Girin : ");
+		double gpa = scanner.nextDouble();
+		
+		System.out.println("=============================");
+		System.out.println("   Öğrenci Bilgi Sistemi");
+		System.out.println("Ad Soyad : " + isim + " " + soyisim);
+		System.out.println("Öğrenci No : " + ogr_no);
+		System.out.println("Yaş : " + yas);
+		System.out.println("GPA : " + gpa);
+		
+		if (gpa > 2.0) {
+			System.out.println("Durum : Başarılı Öğrenci");
+		}
+		else {
+			System.out.println("Durum : Başarısız Öğrenci");
+		}
+		
+	}
+
 }
