@@ -1,3 +1,14 @@
+/*
+ * Ad Soyad: Mehmet Ali Kırımlı
+ * Ogrenci No: 250542027
+ * Tarih: 24.10.2025
+ * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
+ * 
+ * Bu program kullanicidan ogrenci bilgilerini alir ve
+ * duzenli bir formatta ekrana yazdirir.
+ */
+
+
 import java.util.Scanner;
 
 public class odev3 {
